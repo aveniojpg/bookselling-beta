@@ -1,0 +1,4 @@
+max width: 1300 media query cambiare layout
+
+
+attenzione ai tasti che cambiano select che cambiano dimensione

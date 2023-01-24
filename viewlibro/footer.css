@@ -9,9 +9,10 @@ a{
 }
 
 .footer{
-    height: 12vh;
+    margin-top: 50%;
+    height: 100px;
     background-color: rgb(76, 171, 182);
-    position: sticky;
+    /* position:absolute; */
     width: 100%;
     bottom: 0;
 }

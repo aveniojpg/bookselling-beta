@@ -5,23 +5,34 @@
 }
 
 
-.pagebody{
-    height: 130vh;
-    overflow: scroll;
-    
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
 }
 
-body{
-    min-height: 150vh;
+.pagebody{
+    height: 100%;
 }
+
+
+
+.mainwrap{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .maincontainer{
-    height: 92vh;
-    width: 1300px;
-    position: absolute;
+    height: 700px;
+    width: 70%;
+    position: relative;
     left: 50%;
-    top: 28%;
+    margin-top: 100px;
     transform: translateX(-50%);
+    
     border:1px solid rgb(171, 168, 168);
     display: flex;
 }
@@ -278,11 +289,7 @@ select{
 
    }
 
-@media (max-width:1300px) {
-
-    .pagebody{
-        height: 200vh;
-    }
+@media (max-width:1400px) {
 
     .pagetitle{
         display: flex;
@@ -298,8 +305,7 @@ select{
         inline-size: 100vw;
         height: 200px;    
         line-height: 200px;
-        background-color: red;
-        max-height: 200px  ;
+        max-height: 200px;
      }
 
      span
@@ -311,12 +317,11 @@ select{
      }
 
     .maincontainer{
-        top: 20%;
-        height: 150vh;
+        margin-top: 20px;
+        height: 100%;
         width: 100vw;
         display: flex;
         flex-direction: column;
-        height: 1350px;
         border: none;
     }
 

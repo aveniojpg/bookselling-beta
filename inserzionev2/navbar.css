@@ -6,7 +6,7 @@
 
 /* impostazione peso parti */
 .upperbar{
-    height: 12vh;
+    height: 100px;
     background-color: rgb(76, 171, 182);
     position: relative;
     display: flex;
@@ -29,7 +29,7 @@
 
 .title{
     padding-left: 20px;
-    line-height: 12vh;
+    line-height: 100px;
     font-size: 30px;
     display: block;
 }
@@ -73,6 +73,8 @@
     padding: 20px;
     transition: 0.3s;
 }
+
+
 
 .menu li a:hover {
     color: rgb(159, 213, 53);
@@ -189,6 +191,9 @@ footer a:hover{
     color:rgb(159, 213, 53);
     transition: 0.3s;
 } */
+
+
+/* CSS SEARCHBAR */
 
 
 

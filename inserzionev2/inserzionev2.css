@@ -5,17 +5,24 @@
 }
 
 
-.pagebody{
-    height: 130vh;
-    overflow: scroll;
+html {
+    height: 100%;
+}
+body {
+    min-height: 1100px;
 }
 
+.pagebody{
+    height: 100%;
+}
+
+
 .maincontainer{
-    height: 90vh;
-    width: 1250px;
-    position: absolute;
+    height: 700px;
+    width: 70%;
+    position: relative;
     left: 50%;
-    top: 28%;
+    margin-top: 100px;
     transform: translateX(-50%);
     border:1px solid rgb(171, 168, 168);
     display: flex;
@@ -25,9 +32,9 @@
  */
 .pagetitle{
     font-size: 28px;
-    width: 1250px;
-    position: absolute;
-    top: 22%;
+    width:70%;
+    position: relative;
+    top: 85px;
     left: 50%;
     transform:translateX(-50%);
     font-weight: 500;
@@ -173,13 +180,7 @@ select{
 
 .uploadhint{
     width: 100%;
-    /* background-color: green; */
-    height: 5%;
-    margin-left: 58px;
-    position: relative;
-    top: 20px;
- 
-
+    display: none;
 }
 .imgcontainer{
     /* background-color: red; */
@@ -224,7 +225,7 @@ select{
    /* TESTING AREA */
 
    .uploadbtn{
-    width: 55%;
+    width: 58%;
     height: 40px;
     background-color: white;
     padding: 10px;
@@ -253,21 +254,17 @@ select{
 
    }
 
-@media (max-width:1300px) {
+@media (max-width:1408px) {
 
-    .pagebody{
-        height: 200vh;
-    }
 
     .pagetitle{
-        top: 22%;
         width: 95vw;
         text-align: center;
         font-weight: bold;
     }
 
     .maincontainer{
-        top: 19%;
+        margin-top: 0;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -301,8 +298,7 @@ select{
 
     .uploadhint{
         text-align: center;
-        margin-left: 0;
-        margin-bottom: 25px;
+        display: block;
     }
 
     .fleximgcontainer{
@@ -319,7 +315,8 @@ select{
 @media (max-width:360px){
 
     .uploadbtn{
-        font-size: 12px;
+        font-size: 13px;
+        
     }
 }
 
